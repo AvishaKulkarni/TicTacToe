@@ -5,7 +5,7 @@
 
 
 ## Hi there !!
-***
+
 
 
 _This project is basically a Tic-Tac-Toe game created with the combination of HTML, CSS and JavaScript. Try and play with it and suggest me any kind of improvisations that can make it even more
