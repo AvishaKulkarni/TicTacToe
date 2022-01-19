@@ -74,6 +74,7 @@ nav ul{
     background: #f3e7f9;
     border-radius: 6px;
     cursor: pointer;
+    display: none;
     /* font-family */
     /* font-size:  */
     /* font-weight:  */
