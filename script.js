@@ -37,6 +37,9 @@ Array.from(boxes).forEach(element =>{
       checkWin();
       if(!isgameover){
         document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
+        document.getElementById("reset").style.display="none";
+      }else{
+        document.getElementById("reset").style.display="block";
       }
       
     }
