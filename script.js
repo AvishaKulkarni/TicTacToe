@@ -48,6 +48,7 @@ Array.from(boxes).forEach(element =>{
 //? reset Logic -----------------------------------------------
 reset.addEventListener('click', () => {
   confirm("Do you want to reset the game?")
+  if(ok === true){
   let boxtexts = document.querySelectorAll('.boxtext');
   Array.from(boxtexts).forEach(element => {
     element.innerText = " "
@@ -57,5 +58,6 @@ reset.addEventListener('click', () => {
   if(!isgameover){
   document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
   }
+ }
 }) 
                              
