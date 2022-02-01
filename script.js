@@ -35,18 +35,19 @@ Array.from(boxes).forEach(element =>{
       boxtext.innerText = turn ;
       turn = changeTurn();
       checkWin();
-      if(!isgameover){
-        document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
-        document.getElementById("reset").style.display="none";
-      }else{
-        document.getElementById("reset").style.display="block";
-      }
+//       if(!isgameover){
+//         document.getElementsByClassName("info")[0].innerText = "Turn for" + turn;
+//         document.getElementById("reset").style.display="none";
+//       }else{
+//         document.getElementById("reset").style.display="block";
+//       }
       
     }
   })
 }) 
 //? reset Logic -----------------------------------------------
 reset.addEventListener('click', () => {
+  confirm("Do you want to reset the game?")
   let boxtexts = document.querySelectorAll('.boxtext');
   Array.from(boxtexts).forEach(element => {
     element.innerText = " "
